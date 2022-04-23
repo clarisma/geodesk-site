@@ -1,0 +1,54 @@
+#frontmain
+{
+    margin: -20px 140px 0px 80px;
+}
+
+#frontmain p
+{
+    font-family: Roboto, sans-serif;
+    font-size: 26px;
+    line-height: 44px;
+    margin: 0;
+}
+
+#frontmain li p
+{
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#frontmain ul li
+{
+    margin: 4px 0px 6px 0px;
+}
+
+#frontmain ul
+{
+    margin-bottom: 30px;
+}
+
+#callout
+{
+    margin-top: 40px;
+}
+
+#frontmain em
+{
+    background-color: #FFF56B;
+    font-style: normal;
+}
+
+img.front
+{
+    float: right;
+}
+
+#disclaimer p
+{
+    color: #777777;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 20px 70px; 20px; 60px;
+}
