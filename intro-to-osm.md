@@ -44,13 +44,16 @@ Most ways can be drawn in either direction, but there are a few notable exceptio
 
 <img class="float" src="relation-wood.png" width=200>
 
-The OSM data model has a third kind of elements --- **relations** --- which combine multiple elements into more complex structures. A relation can contain any combination of nodes, ways, and other relations. Each member can have an optional **role**.  Relations are commonly used to represent non-trivial polygonal shapes: polygons with holes, or multi-polygons. Examples: a wooded area with a clearing in the center; a country's boundary with exclaves (TODO).
+The OSM data model has a third kind of elements --- **relations** --- which combine multiple elements into more complex structures. A relation can contain any combination of nodes, ways, and other relations. Each member can have an optional **role**.  
+
+<img class="float" src="relation-exclaves.png" width=200>
+
+Relations are commonly used to represent non-trivial polygonal shapes: polygons with holes, or multi-polygons. Examples: a wooded area with a clearing in the center; a country's boundary with exclaves (TODO).
+
+<img class="float" src="relation-shared.png" width=240>
+
 
 Whether a way forms part of the shell or a hole is indicated by the `outer` or `inner` role. (This could be determined programmatically, but requiring the role of the rings to be explicit simplifies processing and makes it easier to spot mistakes.)
-
-
-
-<img class="figure" src="multipolygons.png" width=480>
 
 
 An element can be part of multiple relations, with a different role in each. For example, a way that forms part of an island's shore would be an `outer` member of the island relation, and an `inner` member of the lake.
@@ -69,4 +72,4 @@ Stricly speaking, the `spring` member isn't needed, but by explicitly including 
 
 Every week, the OpenStreetMap project publishes a [complete copy](https://planet.osm.org/) of its worldwide dataset. This **planet file** is encoded in a [tightly-compressed format](https://wiki.openstreetmap.org/wiki/PBF_Format) based on Google's Protocol Buffers (file extension `.osm.pbf`).   
 
-
+There are also multiple services that provide smaller extracts, both for various countries and regions, as well as custom areas.  
