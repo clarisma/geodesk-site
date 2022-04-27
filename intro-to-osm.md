@@ -48,19 +48,16 @@ The OSM data model has a third kind of elements --- **relations** --- which comb
 
 <img class="float" src="relation-exclaves.png" width=200>
 
-Relations are commonly used to represent non-trivial polygonal shapes: polygons with holes, or multi-polygons. Examples: a wooded area with a clearing in the center; a country's boundary with exclaves (TODO).
+Relations are commonly used to represent non-trivial polygonal shapes: polygons with holes, or multi-polygons. Examples: a wooded area with a clearing in the center, or a country with exclaves.
 
 <img class="float" src="relation-shared.png" width=240>
 
 
 Whether a way forms part of the shell or a hole is indicated by the `outer` or `inner` role. (This could be determined programmatically, but requiring the role of the rings to be explicit simplifies processing and makes it easier to spot mistakes.)
 
-
 An element can be part of multiple relations, with a different role in each. For example, a way that forms part of an island's shore would be an `outer` member of the island relation, and an `inner` member of the lake.
 
-TODO: two counties, shared way, river as border
-
-Note that the relation type is `multipolygon` even if the represented shape only consists of a single polygon.
+Relations are convenient for dividing the boundary of a large polygon into individual ways, or sharing ways among multiple geometries. Imagine two adjacent counties: Someone wanting to edit the common border only needs to edit the nodes of the shared way.
 
 Relations are also used to build complex non-polygonal structures, such as a river that splits into multiple branches. Here's an example of a river composed of multiple ways --- the roles `main_stream` and `side_stream` may be useful for applications dealing with boat navigation, or help map-renderers decide which details to omit at lower zoom levels.
 
@@ -73,3 +70,5 @@ Stricly speaking, the `spring` member isn't needed, but by explicitly including 
 Every week, the OpenStreetMap project publishes a [complete copy](https://planet.osm.org/) of its worldwide dataset. This **planet file** is encoded in a [tightly-compressed format](https://wiki.openstreetmap.org/wiki/PBF_Format) based on Google's Protocol Buffers (file extension `.osm.pbf`).   
 
 There are also multiple services that provide smaller extracts, both for various countries and regions, as well as custom areas.  
+
+So, what do you do with all this data? This is where GeoDesk comes in!

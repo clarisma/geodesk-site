@@ -7,9 +7,9 @@
    id="svg83"
    sodipodi:docname="relation-wood.svg"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   inkscape:export-filename="C:\dev\deseo2\core\site\relation-wood.png"
-   inkscape:export-xdpi="117.87"
-   inkscape:export-ydpi="117.87"
+   inkscape:export-filename="C:\dev\geodesk-site\relation-wood.png"
+   inkscape:export-xdpi="117.85542"
+   inkscape:export-ydpi="117.85542"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -1641,9 +1641,9 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect9972-46)"><tspan
          x="84.853516"
          y="448.94246"
-         id="tspan1483"><tspan
+         id="tspan1808"><tspan
            style="font-weight:normal;font-size:42.6667px;-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1481">inner</tspan></tspan></text>
+           id="tspan1806">inner</tspan></tspan></text>
   </g>
   <g
      id="g75442"
@@ -1669,9 +1669,9 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect9972-46-1)"><tspan
          x="84.853516"
          y="448.94246"
-         id="tspan1487"><tspan
+         id="tspan1812"><tspan
            style="font-weight:normal;font-size:42.6667px;-inkscape-font-specification:'sans-serif, Normal'"
-           id="tspan1485">outer</tspan></tspan></text>
+           id="tspan1810">outer</tspan></tspan></text>
   </g>
   <path
      style="fill:none;stroke:#0c6b0a;stroke-width:13.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1855,7 +1855,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect9972-1-16)"><tspan
        x="84.853516"
        y="453.7951"
-       id="tspan1489">type=multipolygon</tspan></text>
+       id="tspan1814">type=multipolygon</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.75,0,0,0.75,43.118733,317.51609)"
@@ -1863,7 +1863,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect9972-1-16-9)"><tspan
        x="84.853516"
        y="453.7951"
-       id="tspan1491">natural=wood</tspan></text>
+       id="tspan1816">natural=wood</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.75,0,0,0.75,44.914403,210.1053)"
@@ -1871,5 +1871,5 @@
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect9972-4-77-7)"><tspan
        x="84.853516"
        y="453.7951"
-       id="tspan1493">relation</tspan></text>
+       id="tspan1818">relation</tspan></text>
 </svg>

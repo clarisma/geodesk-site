@@ -7,9 +7,10 @@ next: core-concepts.md
 
 Since its launch in 2004, a vibrant software ecosystem has emerged around OpenStreetMap. However, geospatial analytics remains a difficult task. Most processing tasks are resource-intensive, requiring high-end workstations and in-depth expertise. The OSM project was meant to democratize geospatial data, but these hurdles discourage many potential adopters.
 
-GeoDesk aims to change all that.
+The crux of the problem is this: That shiny OpenStreetMap file that you just downloaded is nothing but an inscrutable hunk of bits until you turn it into a database, where you can dissect it with spatial queries. But importing into a traditional SQL-based DBMS turns that already hefty OSM file into a monstrous hulking beast. *You're gonna need a bigger drive!*
+And you're going to need tons of patience, because that database import will take many hours even on a beefy machine.
 
-TODO: why database matters
+So we went back to the drawing board and reimagined data storage. Instead of using a relational database, GeoDesk stores OSM data in a *Geographic Object Library* (GOL). GOLs have the following advantages:    
 
 - **Compact file size**: GOLs are stored as single files, which are typically only 40 percent larger than the dataset in `.osm.pbf` format. This is a small fraction of the footprint of a traditional database.
 

@@ -43,11 +43,11 @@
      showgrid="false"
      inkscape:zoom="0.87656322"
      inkscape:cx="88.983884"
-     inkscape:cy="467.16539"
+     inkscape:cy="683.92101"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg83"
+     inkscape:current-layer="g8306"
      inkscape:document-rotation="0"
      inkscape:pagecheckerboard="0"
      inkscape:document-units="pt" />
@@ -1586,8 +1586,8 @@
     <rect
        x="84.852814"
        y="410.12192"
-       width="567.54053"
-       height="140.00714"
+       width="594.92019"
+       height="138.86632"
        id="rect9972-1-16-9" />
   </defs>
   <text
@@ -1713,7 +1713,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect9972-1-16)"><tspan
          x="84.853516"
          y="453.7951"
-         id="tspan2082">type=boundary</tspan></text>
+         id="tspan3993">type=boundary</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.75,0,0,0.75,27.333413,318.72611)"
@@ -1721,7 +1721,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect9972-1-16-9)"><tspan
          x="84.853516"
          y="453.7951"
-         id="tspan2084">boundary=adminstrative</tspan></text>
+         id="tspan3995">boundary=administrative</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.75,0,0,0.75,29.129083,211.31532)"
@@ -1729,7 +1729,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect9972-4-77-7)"><tspan
          x="84.853516"
          y="453.7951"
-         id="tspan2086">relation</tspan></text>
+         id="tspan3997">relation</tspan></text>
   </g>
   <g
      id="g8153"
