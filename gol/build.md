@@ -47,9 +47,9 @@ Instructs the command to use a specific configuration file.
 If the option is specified without a value, the program writes a configuration file
 containing the default settings to the path where the library would be created,
 without actually building the library itself. The user can then customize these
-settings and invoke the `make` command again.
+settings and invoke the `build` command again.
 
-For example, `gol make gols/planet -c` creates `planet.fab` in the `gols` folder.
+For example, `gol build gols/planet -c` creates `planet.fab` in the `gols` folder.
 
 {% include gol/option-quiet.md %}
 

@@ -9,7 +9,7 @@ Geospatial applications typically work with subsets of features in a library, su
 
 All feature collections implement the [`Features`]({{site.javadoc}}feature/Features.html) interface, which provides methods to iterate the member features or constrain them further.
 
-- `FeatureLibrary` itself is a feature collection, representing all features in the library.
+- [`FeatureLibrary`]({{site.javadoc}}feature/FeatureLibrary.html) itself is a feature collection, representing all features in the library.
 
 - Feature collections are lightweight objects that merely described what should be returned; they don't actually contain any objects and take up minimal space. In other words, query execution is lazy: Features are fetched only once they are needed, in response to iteration or a call to `toList()`.
 
@@ -85,23 +85,27 @@ The [next chapter](goql) covers the GeoDesk query language in detail.
 
 ## Predicates
 
-More sophisticated predicates are represented as `Predicate` objects, which can be applied to a collection using `that()`:
+More sophisticated predicates are represented as `Filter` objects, which can be applied to a collection using `select()`:
 
 ```java
-library.ways().that(predicate)
+library.ways().select(filter)
 ```
 
-`Predicate` provides static factory method for common spatial predicates (see below). To make your code more readable, use:
+`Filters` provides static factory method for common spatial predicates (see below). To make your code more concise, use:
 
 ```java
-import static com.geodesk.feature.Predicate.*;
+import static com.geodesk.feature.Filters.*;
 ...
-library.ways().that(intersect(someFeature)) // = Predicate.intersect(...)
+library.ways().select(intersect(someFeature)) // = Filters.intersect(...)
 ```
 
 ## Built-in spatial predicates
 
-`Predicate` provides the following factory methods to test features for spatial relationships with a `Geometry` or `PreparedGeometry` object, or another `Feature`.
+`Filters` provides the following factory methods to test features for spatial relationships with a `Geometry` or `PreparedGeometry` object, or another `Feature`.
+
+### <code>connectedTo(<i>A</i>)</code>
+
+Selects all features that have at least one node (vertex) in common with *A*.
 
 ### <code>contain(<i>A</i>)</code>
 
@@ -126,6 +130,21 @@ Selects features that **cross** *A*:
 Selects features that **intersect** *A*:
 
 - The geometries of *A* and the candidate feature have at least one point in common
+
+### <code>minArea(<i>m</i>)</code>
+
+Selects features whose area is at least *m* square meters.
+
+- Because of projection-dependent distortion, this test may not be accurate for large features, 
+  especially those far from the Equator that extend north-south. 
+
+### <code>maxArea(<i>m</i>)</code>
+
+Selects features whose area is no more than *m* square meters.
+
+- Because of projection-dependent distortion, this test may not be accurate for large features,
+  especially those far from the Equator that extend north-south.
+
 
 ### <code>maxMetersFrom(<i>m</i>, <i>A</i>)</code>
 

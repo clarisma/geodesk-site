@@ -10,7 +10,7 @@ Exports tiles to a folder.
 
 Usage:
 
-    gol load <gol-file> <destination> [<options>]
+    gol save <gol-file> <destination> [<options>]
 
 - If no area is defined (via [`--bbox`](#option-bbox) or [`--polygon`](#option-polygon)),
   all tiles are exported.

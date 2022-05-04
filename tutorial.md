@@ -91,14 +91,13 @@ Other **filters** include:
 
 - Filter by **type**: `.nodes()`, `.ways()`, `.relations()`
  
-- **Spatial predicates**: `.that(...)`: `intersect(...)`, `contain(...)`, `overlap(...)`
+- **Spatial predicates**: `.select(...)`: `intersect(...)`, `contain(...)`, `overlap(...)`
 
 Filters can be combined:
 
 ```java
-roads.ways("bridge").in(bbox).that(intersect(rhineRiver))
+roads.ways("bridge").in(bbox).select(cross(rhineRiver))
 ```
-
 
 
 ## Work with individual features

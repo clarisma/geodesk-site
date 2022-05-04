@@ -18,7 +18,7 @@ OpenStreetMap uses degrees longitude and latitude to store coordinates. GeoDesk 
 GOLs store coordinates as 32-bit integers, using an artificial unit called *imp* (<em>**i**nteger, **M**ercator-**p**rojected</em>). This allows for a coordinate resolution of roughly 1 centimeter.
 
 - The Earth (excluding polar areas) is represented as a square, 2<sup>32</sup> imps high and wide 
-- Coordinates use the full 32-bit integer range; the maximum and minimum X coordinate represent the Antimeridian (+/- 180 degrees longitude) 
+- Coordinates use the full 32-bit integer range; the minimum and maximum X coordinates represent the Antimeridian (+/- 180 degrees longitude) 
 - Coordinates increase from west to east, and from south to north (Unlike screen coordinates, Y coordinates *decrease* moving "downward")
 - Positive X coordinates are located in the eastern hemisphere, negative in the western
 - Positive Y coordinates are located north of the Equator, negative in the south

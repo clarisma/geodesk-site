@@ -10,7 +10,7 @@ Copies tiles from one library to another.
 
 Usage:
 
-    gol info <source-gol-file> <target-gol-file> [<options>]
+    gol copy <source-gol-file> <target-gol-file> [<options>]
 
 - If an area is specified (using [`--bbox`](#option-bbox) or [`--polygon`]((#option-polygon)), only the tiles touching that area are copied.
 

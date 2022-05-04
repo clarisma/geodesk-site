@@ -1,5 +1,6 @@
 ---
 layout: doc-gol
+title: GOL Utility
 ---
 
 # The `gol` Command Line Utility
