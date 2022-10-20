@@ -1,7 +1,9 @@
 ---
-layout: default
-title: Download
+title:  Download
+layout: page
 ---
+
+<div class="text-container" markdown="1">
 
 <div class="box todo" markdown="1">
 The Preview Release is coming soon...
@@ -18,7 +20,7 @@ must have **Java Runtime Version 16** or above (64-bit) installed on your system
 This distribution contains both `gol.bat` (for Windows) and `gol.sh` (for Linux & Mac).
 Please ensure the `JAVA_HOME` environment property is set correctly.
 
-For usage, see [GOL User Guide](/gol) or run `gol help`.
+For usage, see [GOL User Guide](http://docs.geodesk.com/gol) or run `gol help`.
 
 ## Download the GeoDesk Java Library
 
@@ -37,3 +39,5 @@ In this case, you will also need to install the following third-party libraries:
 - [ObjectWeb ASM](https://asm.ow2.io/) 9.0 or above 
 
 GeoDesk requires JRE 16 or above (64-bit).
+
+</div>

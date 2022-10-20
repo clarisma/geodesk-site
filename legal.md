@@ -1,8 +1,9 @@
 ---
-layout: default
+title:  Terms & Conditions
+layout: page
 ---
 
-# Terms & Conditions
+<div class="text-container" markdown="1">
 
 ## OpenStreetMap trademarks and license
 
@@ -16,3 +17,4 @@ from OpenStreetMap data, and are available under the Open Database License (ODbL
 
 Other than server logs, we do not collect or store information about visitors to this website. We do not use cookies.
 
+</div>
