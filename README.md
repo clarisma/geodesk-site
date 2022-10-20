@@ -1,3 +1,3 @@
 # GeoDesk Main Site
 
-[documentation](../geodesk-docs)
+[Documentation](http://github/clarisma/geodesk-docs)
