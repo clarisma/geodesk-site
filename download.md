@@ -17,7 +17,7 @@ The Preview Release is coming soon...
 [Download as zipfile](todo) and uncompress in a folder of your choice. You
 must have **Java Runtime Version 16** or above (64-bit) installed on your system.
 
-This distribution contains both `gol.bat` (for Windows) and `gol.sh` (for Linux & Mac).
+This distribution contains both `gol.bat` (for Windows) and `gol` shell script (for Linux & Mac).
 Please ensure the `JAVA_HOME` environment property is set correctly.
 
 For usage, see [GOL User Guide](http://docs.geodesk.com/gol) or run `gol help`.
@@ -28,9 +28,15 @@ If you're using Maven, add this dependency to your project:
 
 {% include maven.md %}
 
-Or manually download [`geodesk-{{ site.geodesk_version }}.jar`](todo).
+Alternatively, build from source:
 
-In this case, you will also need to install the following third-party libraries:
+```
+git clone https://github.com/clarisma/geodesk.git
+cd geodesk
+mvn install
+```
+
+GeoDesk requires JRE 16 or above (64-bit), and the following third-party libraries (Maven should automatically install these for you):
 
 - [Eclipse Collections](https://github.com/eclipse/eclipse-collections) Version 9.0 or above
 
@@ -38,6 +44,5 @@ In this case, you will also need to install the following third-party libraries:
 
 - [ObjectWeb ASM](https://asm.ow2.io/) 9.0 or above 
 
-GeoDesk requires JRE 16 or above (64-bit).
 
 </div>
