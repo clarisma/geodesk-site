@@ -37,7 +37,7 @@ gol build france france-latest.osm.pbf
 Alternatively, download our pre-built example dataset (Switzerland -- 400 MB):
 
 ```
-gol load -n swiss http://data.geodesk.com/switzerland
+gol load -n swiss https://data.geodesk.com/switzerland
 ```
 
 Now you can familiarize yourself with some of GeoDesk's capabilities by running [the <code>gol query</code> command](http://docs.geodesk.com/gol/query).
