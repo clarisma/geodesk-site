@@ -14,7 +14,7 @@ Our Early Access Release is coming soon...
 
 ### Download the GOL Tool
 
-[Download as zipfile](https://github.com/clarisma/gol-tool/releases/download/0.1.0/gol-tool-0.1.0.zip) and uncompress in a folder of your choice. You must have **Java Runtime Version 16** or above (64-bit) installed on your system ([Download latest version of OpenJDK](https://jdk.java.net/)).
+[Download as zipfile](https://github.com/clarisma/gol-tool/releases/download/{{ site.geodesk_version }}/gol-tool-{{ site.geodesk_version }}.zip) and uncompress in a folder of your choice. You must have **Java Runtime Version 16** or above (64-bit) installed on your system ([Download latest version of OpenJDK](https://jdk.java.net/)).
 
 This distribution contains both `gol.bat` (for Windows) and `gol` shell script (for Linux and Mac). Please ensure that the `JAVA_HOME` environment property is set correctly.
 

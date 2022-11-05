@@ -11,7 +11,7 @@ We are avid supporters of OpenStreetMap ("OSM"); however, we are not affiliated 
 of the OpenStreetMap Foundation. Learn more at the [official OSM website](http://wiki.openstreetmap.org).
 
 Unless indicated otherwise, all geographic datasets available on this site are derived
-from OpenStreetMap data, and are available under the Open Database License (ODbL) 1.0.
+from OpenStreetMap data, and are available under the [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/).
 
 ### Privacy
 
