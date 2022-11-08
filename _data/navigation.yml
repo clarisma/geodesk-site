@@ -3,7 +3,7 @@
   new_window: false
   highlight: false
 - name: Download
-  link: /download/
+  link: /download
   new_window: false
   highlight: false
 - name: Blog
@@ -11,6 +11,6 @@
   new_window: false
   highlight: false
 - name: About
-  link: /about/
+  link: /about
   new_window: false
   highlight: false
