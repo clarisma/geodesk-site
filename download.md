@@ -5,13 +5,6 @@ layout: page
 
 <div class="text-container" markdown="1">
 
-<div class="box todo" markdown="1">
-Our Early Access Release is coming soon...
-
-*(The links below aren't active yet)*
-</div>
-
-
 ### Download the GOL Tool
 
 [Download as zipfile](https://github.com/clarisma/gol-tool/releases/download/{{ site.geodesk_version }}/gol-tool-{{ site.geodesk_version }}.zip) and uncompress in a folder of your choice. You must have **Java Runtime Version 16** or above (64-bit) installed on your system ([Download latest version of OpenJDK](https://jdk.java.net/)).
