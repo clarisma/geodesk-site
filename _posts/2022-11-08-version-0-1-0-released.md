@@ -6,7 +6,7 @@ categories:
 ---
 We are pleased to release GeoDesk Version 0.1 EA.
 
-Please note that as this is still an Early Access release, some documented features may not yet be available. Please check the [release notes](https://github.com/clarisma/gol-tool/releases/tag/0.1.0) for details.
+As this is still an Early Access release, some documented features may not yet be available. Please check the [release notes](https://github.com/clarisma/gol-tool/releases/tag/0.1.0) for details.
 
 The following GitHub repositories are now publicly accessible:
 
