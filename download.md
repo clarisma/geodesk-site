@@ -7,13 +7,13 @@ layout: page
 
 ### Download the GOL Tool
 
-Use this button to start the download:
+Use this button to start the download (**12 MB**):
 
 <p></p>
 <p></p>
 
 <div class="button">
-    <a href="https://github.com/clarisma/gol-tool/releases/download/{{ site.geodesk_version }}/gol-tool-{{ site.geodesk_version }}.zip">Download gol-tool-{{ site.geodesk_version }}.zip</a>
+    <a href="https://github.com/clarisma/gol-tool/releases/download/{{ site.gol_tool_version }}/gol-tool-{{ site.gol_tool_version }}.zip">Download gol-tool-{{ site.gol_tool_version }}.zip</a>
 </div>
 
 
