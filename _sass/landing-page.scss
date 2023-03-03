@@ -60,3 +60,22 @@
 		flex-direction: row-reverse;
 	}
 }
+
+.osi-wrapper
+{
+    display: inline-block;
+    text-align: center;
+}
+
+.osi
+{
+    display: flex;
+    align-items: center; /* vertically center items */
+    width: 360px;
+}
+
+.osi img
+{
+    width: 80px;
+    margin-right: 12px;
+}
