@@ -80,5 +80,5 @@ exclude:
 
 # GeoDesk-specific
 
-geodesk_version: 0.1.6
-gol_tool_version: 0.1.6
+geodesk_version: 0.1.7
+gol_tool_version: 0.1.7
