@@ -12,6 +12,10 @@
     link: https://twitter.com/GeoDeskTeam/
     social_icon: Twitter
     new_window: true
+  - name: Mastodon
+    link: https://en.osm.town/@geodesk
+    social_icon: Mastodon
+    new_window: true
   - name: Github
     link: https://www.github.com/clarisma/geodesk/
     social_icon: Github
