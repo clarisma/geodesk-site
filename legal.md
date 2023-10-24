@@ -13,6 +13,14 @@ of the OpenStreetMap Foundation. Learn more at the [official OSM website](http:/
 Unless indicated otherwise, all geographic datasets available on this site are derived
 from OpenStreetMap data, and are available under the [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/).
 
+### Java Trademark
+
+Java is a registered trademark of Oracle and/or its affiliates. GeoDesk is not affiliated with or endorsed by Oracle.
+
+### Python Trademark
+
+Python is a registered trademark of the Python Software Foundation ("PSF"). GeoDesk is not affiliated with or endorsed by the PSF.
+
 ### Open Source Initiative Trademark
 
 The OSI logo trademark is the trademark of Open Source Initiative. GeoDesk software is licensed under an OSI-approved license.
