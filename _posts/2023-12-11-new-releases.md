@@ -8,7 +8,7 @@ We've shipped two releases today:
 
 # GeoDesk for Java 0.1.9
 
-Includes the GOL Tool ([download here](https://github.com/clarisma/gol-tool/releases/download/0.1.9/gol-tool-0.1.9.zip))
+Includes the GOL Tool ([download](https://github.com/clarisma/gol-tool/releases/download/0.1.9/gol-tool-0.1.9.zip))
 
 ## Bug Fixes
 
