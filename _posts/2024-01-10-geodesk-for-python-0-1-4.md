@@ -1,5 +1,5 @@
 ---
-date: 2023-11-07
+date: 2024-01-10
 title: GeoDesk for Python 0.1.4
 categories:
   - releases
