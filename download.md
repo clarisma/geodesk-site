@@ -3,74 +3,226 @@ title:  Getting Started
 layout: page
 ---
 
+<style>
+
+.download 
+{
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 40px;
+    min-width: 300px;
+    padding: 10px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: -1px; /* Space between stacked boxes */
+}
+
+.download-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto; /* four natural-width columns */
+    grid-auto-flow: row;
+    margin-left: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    width: fit-content;              /* ⬅ shrink to fit */
+    max-width: 100%;                 /* optional safety */
+}
+
+.download-row {
+    display: contents; /* let each .download-cell span grid columns */
+    border-top: 1px solid black;
+}
+
+.download-row:first-of-type {
+    border-top: none; /* remove top border for first row */
+}
+
+.download-cell {
+    padding: 10px 14px 10px 14px;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.download-link {
+    background-color: #388E3C; // #4CAF50; 
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 14px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.download-link:hover {
+    text-decoration: none;
+    background-color: #4CAF50; /* lighter green for glow */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.version-label {
+    font-size: 10px;
+    font-weight: 550;
+    padding: 3px 3px 2px 3px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-left: 10px;
+    vertical-align: 2px;
+    letter-spacing: 0.06em;
+}
+
+.latest-label
+{
+    background-color: #4CAF50; /* green */
+    color: white;
+}
+
+.beta-label
+{
+    background-color: #f0f000; /* yellow */
+    color: black;
+}
+
+.platform-note {
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 1px;
+    padding-top: 2px;
+}
+
+.product-title
+{
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+pre
+{
+background-color: rgb(39, 40, 34);
+border-radius: 4px;
+color: white;
+padding: 6px 10px;
+margin-bottom: 40px;
+margin-left: 40px;
+max-width: 440px; 
+}
+
+.highlight code
+{
+    color: white;  // TODO: use rouge
+}
+
+p
+{
+    margin-bottom: 12px;
+}
+
+.steps ul
+{
+	margin-top: 0px;
+}
+
+.steps li {
+	font-size: 1.1em;
+	color: #333333;
+	font-weight: 300;
+	line-height: 1.2em;
+    margin-bottom: 8px;
+}
+
+
+</style>
+
 <div class="text-container" markdown="1">
 
-### Download the GOL Tool
+### GeoDesk gol CLI
 
-Use this button to start the download (**12 MB**):
+Build and query Geo-Object Libraries (GOLs).
 
-<p></p>
-<p></p>
 
-<div class="button">
-    <a href="https://github.com/clarisma/gol-tool/releases/download/{{ site.gol_tool_version }}/gol-tool-{{ site.gol_tool_version }}.zip">Download gol-tool-{{ site.gol_tool_version }}.zip</a>
+<div class="download-grid">
+    <div class="download-row">
+        <div class="download-cell product-title">gol CLI</div>
+        <div class="download-cell">
+            {{site.data.geodesk_gol_latest.version}}<!-- <span class="version-label latest-label">Latest</span> -->
+        </div>
+        <div class="download-cell">
+        <div>Multi-Platform<div class="platform-note">Requires Java 16+</div></div>
+        </div>
+        <div class="download-cell">
+            <a class="download-link" href="https://github.com/clarisma/gol-tool/releases/download/{{site.data.geodesk_gol_latest.version}}/gol-tool-{{site.data.geodesk_gol_latest.version}}.zip">Download</a>
+        </div>
+    </div>
+    {% comment %}
+    <div class="download-row" data-platform="macos">
+        <div class="download-cell product-title">gol CLI</div>
+        <div class="download-cell">
+            {{ site.data.geodesk_gol_beta.version}}
+            <span class="version-label beta-label">Beta</span>
+        </div>
+        <div class="download-cell">Windows</div>
+        <div class="download-cell">
+            <a class="download-link" href="/files/myfile1-mac.zip">Download</a>
+        </div>
+    </div>
+    {% endcomment %}
 </div>
 
+**Install:**
 
-Uncompress the ZIP file in a folder of your choice. You must have **Java Runtime Version 16** or above (64-bit) installed on your system ([Download latest version of OpenJDK](https://jdk.java.net/)).
+<div class="steps" markdown="1">
+- Unzip in a location of your choice
+- Add `gol` to your path (optional)
+- [Install Java](https://adoptium.net/) (version 16 or above)
+{% comment %} 
+- For gol {{site.data.geodesk_gol_latest.version}} only: [Install Java](https://adoptium.net/) (version 16 or above)
+{% endcomment %} 
+</div>
 
-This distribution contains both `gol.bat` (for Windows) and `gol` shell script (for Linux and Mac). Please ensure that the `JAVA_HOME` environment property is set correctly.
+**Use:** ([Documentation](https://docs.geodesk.com/gol))
 
-> **Linux users:** You may have to make the launcher script executable using `chmod u+x gol`. To conveniently use the command from any folder, consider creating a symbolic link on your path, e.g. `ln -s gol_app_dir/gol ~/bin/gol`.
-
-For usage, see [GOL User Guide](http://docs.geodesk.com/gol) or run `gol help`.
-
-### Create your first geographic object library
-
-Grab some OpenStreetMap data in OSM-PBF format from a provider such as [Geofabrik](http://download.geofabrik.de/) (We recommend starting with a country-sized extract, or maybe just a single state).
-
-Run the `build` command:
-
-```
-gol build france france-latest.osm.pbf
-```
-
-(Depending on your hardware and the size of the extract, this could take a few minutes to half an hour to complete.)
-
-Alternatively, download our pre-built example dataset (Switzerland -- 400 MB):
-
-```
-gol load -n swiss https://data.geodesk.com/switzerland
+```bash
+$ gol build france france-latest.osm.pbf
+$ gol query france na[amenity=restaurant]
 ```
 
-Now you can familiarize yourself with some of GeoDesk's capabilities by running [the <code>gol query</code> command](http://docs.geodesk.com/gol/query).
+### GeoDesk for Python
 
-### Download the GeoDesk Java Library
+Analyze and visualize OpenStreetMap data.<br> 
+[Documentation](https://docs.geodesk.com/python) • [GitHub](https://github.com/clarisma/geodesk-py) 
 
-You will need the [GeoDesk Java library](http://www.github.com/clarisma/geodesk) if you want to incorporate the GeoDesk database engine into your own geospatial applications. You can skip this step if you only want to use the GOL command-line tool. 
+```bash
+$ pip install geodesk
+```
 
-If you're using Maven, add this dependency to your project:
+### GeoDesk for Java
+
+Build sophisticated geospatial applications.<br> 
+[Tutorial](https://docs.geodesk.com/java) • [Javadoc](https://apidocs.geodesk.com/v1/) • [GitHub](https://github.com/clarisma/geodesk)  
 
 {% include maven.md %}
 
-Alternatively, build the latest version from source:
 
+### GeoDesk for C++
+
+Our most powerful OpenStreetMap Toolkit.<br>[Tutorial](https://docs.geodesk.com/cpp) • [API Documentation](https://cppdoc.geodesk.com/) • [GitHub](https://github.com/clarisma/libgeodesk) 
+
+```cmake
+include(FetchContent)
+FetchContent_Declare(geodesk GIT_REPOSITORY 
+    https://github.com/clarisma/libgeodesk.git
+    GIT_TAG main)
+FetchContent_MakeAvailable(geodesk)
 ```
-git clone https://github.com/clarisma/geodesk.git
-cd geodesk
-mvn install
-```
-
-GeoDesk requires JRE 16 or above (64-bit), and the following third-party libraries (Maven should automatically install these for you):
-
-- [Eclipse Collections](https://github.com/eclipse/eclipse-collections) Version 9.0 or above
-
-- [Java Topology Suite (JTS)](https://github.com/locationtech/jts) Version 1.18 or above
-
-- [ObjectWeb ASM](https://asm.ow2.io/) 9.0 or above 
-
-## Need help?
-
-Problems, questions or feedback? Visit the GeoDesk [GitHub repository](http://www.github.com/clarisma/geodesk).
 
 </div>

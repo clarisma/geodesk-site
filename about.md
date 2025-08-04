@@ -5,6 +5,8 @@ layout: page
 
 <div class="text-container" markdown="1">
 
+## About Us
+
 We are an independent team of developers with interest in cartography and all things
 geospatial. We're avid supporters of OpenStreetMap ("OSM"); however, we are not affiliated with, or endorsed or sponsored by OSM. OpenStreetMap, OSM and the OSM logo are trademarks
 of the OpenStreetMap Foundation. Learn more at the [official OSM website](http://wiki.openstreetmap.org).
