@@ -1,5 +1,5 @@
 ---
-date: 2024-08-05
+date: 2025-08-05
 title: "New Releases: 1.1 (Java), 1.2 (Python) and 1.0 (C++)"
 categories:
   - releases
