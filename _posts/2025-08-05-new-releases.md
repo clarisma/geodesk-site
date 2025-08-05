@@ -10,4 +10,4 @@ We've shipped three new releases:
 
 - [GeoDesk for Python](https://docs.geodesk.com/python) 1.2 ([release notes](https://github.com/clarisma/geodesk-py/releases/tag/v1.2.0))
 
-- [GeoDesk for C++](https://docs.geodesk.com/cpp) 1.0 ([release notes](https://github.com/clarisma/geodesk/releases/tag/v1.0.0))
+- [GeoDesk for C++](https://docs.geodesk.com/cpp) 1.0 ([release notes](https://github.com/clarisma/libgeodesk/releases/tag/v1.0.0))
