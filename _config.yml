@@ -17,6 +17,9 @@ author:
 twitter:
   username: GeoDeskTeam
 
+markdown: kramdown
+highlighter: rouge
+
 # -----
 # Build
 
@@ -80,5 +83,5 @@ exclude:
 
 # GeoDesk-specific
 
-geodesk_version: 1.0.2
-gol_tool_version: 1.0.2
+geodesk_version: 1.1.0
+gol_tool_version: 1.1.0
