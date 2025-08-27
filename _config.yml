@@ -17,6 +17,9 @@ author:
 twitter:
   username: GeoDeskTeam
 
+markdown: kramdown
+highlighter: rouge
+
 # -----
 # Build
 
