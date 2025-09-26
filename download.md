@@ -151,49 +151,49 @@ Build and query Geo-Object Libraries (GOLs).
 
 
 <div class="download-grid">
+    <div class="download-row" data-platform="windows">
+        <div class="download-cell product-title">gol CLI</div>
+        <div class="download-cell">
+            {{site.data.geodesk_gol_latest.version}}
+            <span class="version-label latest-label">Latest</span> 
+        </div>
+        <div class="download-cell">Windows</div>
+        <div class="download-cell">
+            <a class="download-link" href="https://github.com/clarisma/geodesk-gol/releases/download/v{{site.data.geodesk_gol_latest.version}}/gol-{{site.data.geodesk_gol_latest.version}}-win.zip">Download</a>
+        </div>
+    </div>
+    <div class="download-row" data-platform="linux">
+        <div class="download-cell product-title">gol CLI</div>
+        <div class="download-cell">
+            {{site.data.geodesk_gol_latest.version}}
+            <span class="version-label latest-label">Latest</span>
+        </div>
+        <div class="download-cell">Linux</div>
+        <div class="download-cell">
+            <a class="download-link" href="https://github.com/clarisma/geodesk-gol/releases/download/v{{site.data.geodesk_gol_latest.version}}/gol-{{site.data.geodesk_gol_latest.version}}-linux.zip">Download</a>
+        </div>
+    </div>
+    <div class="download-row" data-platform="macos">
+        <div class="download-cell product-title">gol CLI</div>
+        <div class="download-cell">
+            {{site.data.geodesk_gol_latest.version}}
+            <span class="version-label latest-label">Latest</span>
+        </div>
+        <div class="download-cell">macOS</div>
+        <div class="download-cell">
+            <a class="download-link" href="https://github.com/clarisma/geodesk-gol/releases/download/v{{site.data.geodesk_gol_latest.version}}/gol-{{site.data.geodesk_gol_latest.version}}-macos.zip">Download</a>
+        </div>
+    </div>
     <div class="download-row">
         <div class="download-cell product-title">gol CLI</div>
         <div class="download-cell">
-            {{site.geodesk_version}} <span class="version-label latest-label">Latest</span> 
+            {{site.data.geodesk_gol_v1_latest.version}} <!-- <span class="version-label latest-label">Latest</span> -->
         </div>
         <div class="download-cell">
         <div>Multi-Platform<div class="platform-note">Requires Java 16+</div></div>
         </div>
         <div class="download-cell">
-            <a class="download-link" href="https://github.com/clarisma/gol-tool/releases/download/{{site.geodesk_version}}/gol-tool-{{site.geodesk_version}}.zip">Download</a>
-        </div>
-    </div>
-    <div class="download-row" data-platform="macos">
-        <div class="download-cell product-title">gol CLI</div>
-        <div class="download-cell">
-            {{ site.data.geodesk_gol_beta.version}}
-            <span class="version-label beta-label">Preview</span>
-        </div>
-        <div class="download-cell">Windows</div>
-        <div class="download-cell">
-            <a class="download-link" href="https://github.com/clarisma/geodesk-gol/releases/download/{{site.data.geodesk_gol_beta.version}}/gol-{{site.data.geodesk_gol_beta.version}}-win.zip">Download</a>
-        </div>
-    </div>
-    <div class="download-row" data-platform="macos">
-        <div class="download-cell product-title">gol CLI</div>
-        <div class="download-cell">
-            {{ site.data.geodesk_gol_beta.version}}
-            <span class="version-label beta-label">Preview</span>
-        </div>
-        <div class="download-cell">Linux</div>
-        <div class="download-cell">
-            <a class="download-link" href="https://github.com/clarisma/geodesk-gol/releases/download/{{site.data.geodesk_gol_beta.version}}/gol-{{site.data.geodesk_gol_beta.version}}-linux.zip">Download</a>
-        </div>
-    </div>
-    <div class="download-row" data-platform="macos">
-        <div class="download-cell product-title">gol CLI</div>
-        <div class="download-cell">
-            {{ site.data.geodesk_gol_beta.version}}
-            <span class="version-label beta-label">Preview</span>
-        </div>
-        <div class="download-cell">macOS</div>
-        <div class="download-cell">
-            <a class="download-link" href="https://github.com/clarisma/geodesk-gol/releases/download/{{site.data.geodesk_gol_beta.version}}/gol-{{site.data.geodesk_gol_beta.version}}-macos.zip">Download</a>
+            <a class="download-link" href="https://github.com/clarisma/gol-tool/releases/download/{{site.data.geodesk_gol_v1_latest.version}}/gol-tool-{{site.data.geodesk_gol_v1_latest.version}}.zip">Download</a>
         </div>
     </div>
 </div>
@@ -203,10 +203,7 @@ Build and query Geo-Object Libraries (GOLs).
 <div class="steps" markdown="1">
 - Unzip in a location of your choice
 - Add `gol` to your path (optional)
-- [Install Java](https://adoptium.net/) (version 16 or above)
-{% comment %} 
-- For gol {{site.data.geodesk_gol_latest.version}} only: [Install Java](https://adoptium.net/) (version 16 or above)
-{% endcomment %} 
+- For gol {{data.geodesk_gol_v1_latest.version}} only: [Install Java](https://adoptium.net/) (version 16 or above)
 </div>
 
 **Use:** ([Documentation](https://docs.geodesk.com/gol))
