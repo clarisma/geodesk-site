@@ -158,8 +158,13 @@ Build and query Geo-Object Libraries (GOLs).
             <span class="version-label latest-label">Latest</span> 
         </div>
         <div class="download-cell">Windows</div>
+        <!--
         <div class="download-cell">
             <a class="download-link" href="https://github.com/clarisma/geodesk-gol/releases/download/v{{site.data.geodesk_gol_latest.version}}/gol-{{site.data.geodesk_gol_latest.version}}-win.zip">Download</a>
+        </div>
+        -->
+        <div class="download-cell">
+            <a class="download-link" href="https://github.com/clarisma/geodesk-gol/actions/runs/18040617200/artifacts/4115962913">Download</a>
         </div>
     </div>
     <div class="download-row" data-platform="linux">
