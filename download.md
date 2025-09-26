@@ -203,7 +203,7 @@ Build and query Geo-Object Libraries (GOLs).
 <div class="steps" markdown="1">
 - Unzip in a location of your choice
 - Add `gol` to your path (optional)
-- For gol {{data.geodesk_gol_v1_latest.version}} only: [Install Java](https://adoptium.net/) (version 16 or above)
+- *For gol {{site.data.geodesk_gol_v1_latest.version}} only:* [Install Java](https://adoptium.net/) (version 16 or above)
 </div>
 
 **Use:** ([Documentation](https://docs.geodesk.com/gol))
