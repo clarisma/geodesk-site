@@ -225,7 +225,7 @@ $ pip install geodesk
 ### GeoDesk for Java
 
 Build sophisticated geospatial applications.<br> 
-[Tutorial](https://docs.geodesk.com/java) • [Javadoc](https://apidocs.geodesk.com/v1/) • [GitHub](https://github.com/clarisma/geodesk)  
+[Tutorial](https://docs.geodesk.com/java) • [Javadoc](https://apidocs.geodesk.com/v2/) • [GitHub](https://github.com/clarisma/geodesk)  
 
 {% include maven.md %}
 
